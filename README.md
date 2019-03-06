@@ -1,27 +1,29 @@
 # Project 1
 ###### By: Jacob Huebner - ITMD 362 Spring 2019 
 
-For this project, you will polish up your CSS and add a little JavaScript.
+You will create a single-page design that features a sign-up process to get new users to join some type of project, such as an email list, a software beta test, or an open-source community. The goal of this project is to experiment with patterns of interaction that persuade someone to sign up for whatever it is you’re offering, which is not at all an easy task.
 
 ## Goals
 
-* Understand and execute JavaScript
-* Work with an open API, learning how to hit its endpoints in response to user input
+* Create a mobile-first responsive web design using two media queries
+* Apply design principles including typography, color, and material design
+* Engage in agile, iterative development; documented with at least 20 commits with informative comments
 
 ## Deliverables & Milestones
 
 
-1. [x] **First Deliverable:** Polish up your CSS based on feedback recieved from the professor. Create a Basecamp post that includes a world-viewable URL of your project, in addition to the URL to your GitHub repository. Include in the text of your post one or two things you would like feedback on from the instructor and other students in the class.
+1. [x] **First Deliverable:** Create a Basecamp post describing your work in progress. Title the post with your name and project number (example Daniel Krieglstein: Project 1). Your post should include:
 
-2. [ ] **Second Deliverable:** Give constructive comments to help at least three other students.
+* The URL to your GitHub repository, and the URL to your Github Pages live link
+* Screen shot of your html and css validations
+* Two questions eliciting feedback on from fellow students
 
-3. [ ] **Third Deliverable:** Final update to your Basecamp post with the following
+2. [x] **Second Deliverable:** Give constructive comments to help at least three other students.
 
-* Javascript: Inclusion of either a google maps api utilizing at least three javascript features, or a javscript based rotating picture display.
+* Post a screen shot of your three comments to the comments folder in your personal Basecamp folder.
 
-* A 5-8 sentence self-critique memo of your project and your progress in class this semester
+3. [x] **Third Deliverable:** You will receive a list on your Basecamp post of required fixes from the professor. Fix your code and edit your original Basecamp post with the words "FINAL TURN IN"
 
-* The https:// link to your individual GitHub repository
 
 ## Requirements
 
