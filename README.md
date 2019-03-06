@@ -24,19 +24,45 @@ You will create a single-page design that features a sign-up process to get new 
 
 3. [x] **Third Deliverable:** You will receive a list on your Basecamp post of required fixes from the professor. Fix your code and edit your original Basecamp post with the words "FINAL TURN IN"
 
+## Rules
+
+* Project must be built with only one valid well-formed HTML file, one css reset file, one user CSS file, and one JavaScript file.
+
+* All source files in UTF-8/Unicode character encoding.
+
+* Do not use any pre-build code or frameworks. Write it all from scratch.
+
+* HTML, CSS, and JavaScript files should both be indented with 2 spaces per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries
+
+* Must pass HTML and CSS validators!
 
 ## Requirements
 
-- [x] Valid, well-formed HTML5 and standards-compliant CSS and JavaScript
+### HTML requirements
 
-- [x] One valid, error-free CSS file with your orginal code; and one file containing the css reset code you used.
+1. [ ] Only structural, semantic uses of HTML elements and attributes. Absolutely no table markup, break tags, or any other use of HTML to achieve a particular page layout.
 
-- [x] JavaScript that throws no uncaught errors and is loaded unobtrusively
+2. [ ] At least three HTML form elements, written in conjunction with <label> tags and the for: attribute
 
-- [x] HTML-based fallbacks for any media elements (image, audio, video) that you include
+3. [ ] Semantically structured text-based HTML content to accompany any media elements (image, audio, video) 
 
-- [x] Organized, readable source that is hand-written and original (no WYSIWYGs or code-generators, no Bootstrap or other off-the-shelf frameworks)
+### CSS requirements
 
-- [x] A personal Git repository with frequent commits and meaningful commit messages that accurately reflect each set of changes that you make
+1. [ ] One css file for resetes (Meyers and the Form section of Normalize). A second css file for your unique css code.
 
-- [x] GitHub repository must contain only the files and commits from this project
+2. [ ] Use at least two min-width media queries to enhance your mobile-first styles for larger screens
+
+3. [ ] Much of your grade depends on design principles of typography, color, and material design that are discussed in this class. Make sure to demonstrate some grasp of these concepts.
+
+### JavaScript requirements
+
+1. [ ] JavaScript that throws no uncaught errors and is loaded unobtrusively (no JavaScript event attributes in your HTML, in other words; attach events to any elements requiring interaction)
+
+2. [ ] Use the asynchronous attribute to attach JavaScript within your html head
+
+### Git requirements
+
+1. [ ] A Git repository with at least 20 commits and meaningful commit messages that accurately reflect each set of changes that you make
+
+2. [ ] GitHub repository must contain only the files and commits from this project
+
