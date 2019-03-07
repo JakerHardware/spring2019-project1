@@ -467,95 +467,98 @@ h6 {
 
 #popup{
 
-  background-color: lightgrey;
-  padding: 0.563em; /* 18px / 2 */
-  border-radius: 0.5em;
-  margin: 0.563em;
+    background-color: lightgrey;
+    padding: 0.563em; /* 18px / 2 */
+    margin: 0.563em;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 #popup h1, h2{
-  text-align: center;
-  display: block;
+    display: block;
 }
 
-#popup h1 { margin-top: 0; margin-bottom: 0;} /* padding  */
-#popup h2 { padding-top: 0.563em;} /* padding  */
+
+#popup h2 { padding-top: 0.563em;
+padding-bottom: 0.563em;} /* padding  */
 #popup h4 { padding-top: 0.563em; padding-bottom: 0.563em;} /* padding  */
 
+
+img {
+    margin:0 auto; /* center */
+    left:0;        /* center */
+    right:0;       /* center */
+}
+
 .responsive_img {
-    margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  text-align: center;
-  display: block;
-  height: auto;
-  width: 100%;
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 .owo {
-  /* margin-left: 10%;
+    /* margin-left: 10%;
     margin-right: 10%;  */
 }
 
 .ovo {
-  display: block;
+    display: block;
 
 }
 
 input{
-  
+
 }
 
 #popup ol{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
 }
 
 #popup ol li{
-  list-style-type: none;
+    list-style-type: none;
 }
 
 #email{
-  width: 100%;
-  border: 0;
-  border-radius: 0.2em;
-  padding-top: 0.563em; 
-  padding-bottom: 0.563em;
-  margin-top: 0.563em; 
-  margin-bottom: 0.563em;
-  text-indent: 12px;
+    width: 100%;
+    border: 0;
+    border-radius: 0.2em;
+    padding-top: 0.563em; 
+    padding-bottom: 0.563em;
+    margin-top: 0.563em; 
+    margin-bottom: 0.563em;
+    text-indent: 12px;
 }
 
 #submit{
-  width: 100%;
-  color: white;
-  background-color: black;
-  border: 0;
-  border-radius: 0.2em;
-  padding-top: 0.563em; 
-  padding-bottom: 0.563em; 
-  margin-top: 0.563em; 
-  margin-bottom: 0.563em; 
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 0.2em;
+    padding-top: 0.563em; 
+    padding-bottom: 0.563em; 
+    margin-top: 0.563em; 
+    margin-bottom: 0.563em; 
 }
 
 #exit{
-  color: grey;
-  text-align: right;
-  display: block;
-  margin-top: 2.563em; 
-  margin-bottom: 1em;
-  margin-left: auto;
-  margin-right: auto;
+    color: grey;
+    text-align: right;
+    display: block;
+    margin-top: 2.563em; 
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #popup h5{
-  display: inline;
+    display: inline;
 
-  padding-left: 0.563em; 
-  padding-right: 0.563em; 
-  
+    padding-left: 0.563em; 
+    padding-right: 0.563em; 
+
 }
 
 /* exit */
