@@ -10,9 +10,18 @@ $(document).ready(function(){
   }); 
 });
 
-//fade out on submit
+// fade out on submit
 $(this).submit(function(){
   alert("You are now subscribed.");
   $("#popup").fadeOut("slow");
   return false;
+});
+
+// fade out on close
+// btw this is a shoutout to yall you motherfuckers who stole my code
+// jk i actually love you. 
+$(document).ready(function(){
+  $("#close").click(function(){
+    $("#popup").fadeOut("fast");
+  });
 });

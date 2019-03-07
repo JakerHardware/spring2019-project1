@@ -482,20 +482,14 @@ h6 {
 #popup h2 { padding-top: 0.563em;} /* padding  */
 #popup h4 { padding-top: 0.563em; padding-bottom: 0.563em;} /* padding  */
 
-#popup img{
-  text-align: center;
-  display: block;
-  margin-left: auto;
+.responsive_img {
+    margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  display: inline-block;
-  height: auto;
-}
-
-.responsive_img {
-  max-width: 100%;
+  text-align: center;
   display: block;
   height: auto;
+  width: 100%;
 }
 
 .owo {
@@ -523,19 +517,6 @@ input{
   list-style-type: none;
 }
 
-#submit{
-  width: 100%;
-  color: white;
-  background-color: black;
-  border: 0;
-  border-radius: 0.2em;
-  padding-top: 0.563em; 
-  padding-bottom: 0.563em; 
-  margin-top: 0.563em; 
-  margin-bottom: 1em;
-  
-}
-
 #email{
   width: 100%;
   border: 0;
@@ -546,6 +527,40 @@ input{
   margin-bottom: 0.563em;
   text-indent: 12px;
 }
+
+#submit{
+  width: 100%;
+  color: white;
+  background-color: black;
+  border: 0;
+  border-radius: 0.2em;
+  padding-top: 0.563em; 
+  padding-bottom: 0.563em; 
+  margin-top: 0.563em; 
+  margin-bottom: 0.563em; 
+}
+
+#exit{
+  color: grey;
+  text-align: right;
+  display: block;
+  margin-top: 2.563em; 
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#popup h5{
+  display: inline;
+
+  padding-left: 0.563em; 
+  padding-right: 0.563em; 
+  
+}
+
+/* exit */
+
+
 
 
 /* =============================================================  5. Base ============================================================= */
