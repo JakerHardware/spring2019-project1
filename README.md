@@ -50,7 +50,7 @@ You will create a single-page design that features a sign-up process to get new 
 
 1. [x] One css file for resetes (Meyers and the Form section of Normalize). A second css file for your unique css code.
 
-2. [ ] Use at least two min-width media queries to enhance your mobile-first styles for larger screens
+2. [x] Use at least two min-width media queries to enhance your mobile-first styles for larger screens
 
 3. [ ] Much of your grade depends on design principles of typography, color, and material design that are discussed in this class. Make sure to demonstrate some grasp of these concepts.
 

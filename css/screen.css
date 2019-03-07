@@ -4,7 +4,7 @@ img, audio, video {
     max-width: 100%;
 }
 
-/* =============================================================  3. MAIN STYLE ============================================================= */
+/* ========================  1. MAIN STYLE ======================== */
 
 /*
 Major second  Scale:
@@ -62,11 +62,13 @@ h6 {
 /* Popup */
 
 #popup{
-
     background-color: lightgrey;
     padding: 0.563em; /* 18px / 2 */
     margin: 0.563em;
     box-shadow: 5px 10px 18px #888888;
+    position: absolute;
+    width: auto 0;
+    
 }
 
 #popup h1, h2{
@@ -75,7 +77,7 @@ h6 {
 
 
 #popup h2 { padding-top: 0.563em;
-padding-bottom: 0.563em;} /* padding  */
+    padding-bottom: 0.563em;} /* padding  */
 #popup h4 { padding-top: 0.563em; padding-bottom: 0.563em;} /* padding  */
 
 
@@ -125,6 +127,7 @@ input{
     margin-top: 0.563em; 
     margin-bottom: 0.563em;
     text-indent: 12px;
+    display: block;
 }
 
 #submit{
@@ -137,6 +140,7 @@ input{
     padding-bottom: 0.563em; 
     margin-top: 0.563em; 
     margin-bottom: 0.563em; 
+    display: block;
 }
 
 #exit{
@@ -147,6 +151,7 @@ input{
     margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 
 #popup h5{
@@ -162,7 +167,7 @@ input{
 
 
 
-/* =============================================================  5. Base ============================================================= */
+/* ========================  2. Base ======================== */
 
 label {
 
@@ -178,30 +183,79 @@ input {
 
 }
 
-/* =============================================================  6. Media Queries ============================================================= */
+/* ========================  3. Media Queries ======================== */
 
 /* 400px Break Point 1: Extra Small Devices, Phones */
 @media screen and (min-width: 354px) { 
     #popup h2{
         text-align: center;
     }
-    
+
 }
 
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (min-width: 526px) {
-  #popdown_1{
-      width: 465px;
-      margin: 0 auto;
+    #popdown_1{
+        width: 465px;
+        margin: 0 auto;
     }
 
 }
 
 /* 992px Break Point 3: Desktop Computers, Large screens */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 960px) {
+
+    #content{
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    #html{
+
+    }
 
 }
 
-/* =============================================================  7. Javascript ============================================================= */
+/* ========================  4. Navigation ======================== */
+
+nav ul {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 auto;
+    list-style-type: none;
+    background-color: dimgrey;
+}
+
+nav li a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 16px 18px;
+    color: white;
+}
+
+nav li {
+    float: right;
+}
+
+
+nav li a:hover {
+    background-color: grey;
+}
+
+section{
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+}
+
+#blog_title{
+    margin-top: .5em;
+    margin-bottom: .4em;
+    padding-left: .5em;
+    padding-right: .5em;
+    background-color: white;
+}
 
 
