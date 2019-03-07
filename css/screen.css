@@ -469,7 +469,7 @@ h6 {
 
   background-color: lightgrey;
   padding: 0.563em; /* 18px / 2 */
-  border-radius: 1.667em;
+  border-radius: 0.5em;
   margin: 0.563em;
 }
 
@@ -477,6 +477,10 @@ h6 {
   text-align: center;
   display: block;
 }
+
+#popup h1 { margin-top: 0; margin-bottom: 0;} /* padding  */
+#popup h2 { padding-top: 0.563em;} /* padding  */
+#popup h4 { padding-top: 0.563em; padding-bottom: 0.563em;} /* padding  */
 
 #popup img{
   text-align: center;
@@ -528,7 +532,7 @@ input{
   padding-top: 0.563em; 
   padding-bottom: 0.563em; 
   margin-top: 0.563em; 
-  margin-bottom: 0.563em;
+  margin-bottom: 1em;
   
 }
 
@@ -537,9 +541,10 @@ input{
   border: 0;
   border-radius: 0.2em;
   padding-top: 0.563em; 
-  padding-bottom: 0.563em; 
+  padding-bottom: 0.563em;
   margin-top: 0.563em; 
   margin-bottom: 0.563em;
+  text-indent: 12px;
 }
 
 
