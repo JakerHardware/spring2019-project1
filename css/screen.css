@@ -466,21 +466,34 @@ h6 {
 /* Popup */
 
 #popup{
-  text-align: center;
+
   background-color: lightgrey;
   padding: 0.563em; /* 18px / 2 */
   border-radius: 1.667em;
   margin: 0.563em;
 }
 
-#popup.h1{
-  display: inline-block;
+#popup h1{
+  text-align: center;
+  display: block;
+}
+
+#popup img{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .responsive_img {
-  max-width: 100%;
+  max-width: 80%;
   display: inline-block;
   height: auto;
+}
+
+.owo {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 
