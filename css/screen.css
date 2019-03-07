@@ -181,13 +181,19 @@ input {
 /* =============================================================  6. Media Queries ============================================================= */
 
 /* 400px Break Point 1: Extra Small Devices, Phones */
-@media screen and (max-width: 354px) { 
-
+@media screen and (min-width: 354px) { 
+    #popup h2{
+        text-align: center;
+    }
+    
 }
 
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
-@media screen and (min-width: 658px) {
-
+@media screen and (min-width: 526px) {
+  #popdown_1{
+      width: 465px;
+      margin: 0 auto;
+    }
 
 }
 
