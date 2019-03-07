@@ -1,9 +1,9 @@
 // JQuery? More like [REDACTED]
 $(document).ready(function(){
   $("#submit").hover(function(){
-    prompt("Hovering over submit");
+    alert("Hovering over submit");
   },
   function(){
-    prompt("No longer hovering over submit");
+    alert("No longer hovering over submit");
   }); 
 });
