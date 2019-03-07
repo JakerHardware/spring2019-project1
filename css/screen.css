@@ -411,18 +411,16 @@ img, audio, video {
 /* =============================================================  3. MAIN STYLE ============================================================= */
 
 /*
-Major Sixth Modular Scale:
-http://www.modularscale.com/?22&px&1.667&web&text
+Major second  Scale:
+https://www.modularscale.com/?16&px&1.125
 */
 
 html {
-    font-size: 1.375em; /* 22px @ 16 */
-    line-height: 1.618em; /* 26px / ~ 120% */ /* ( 26px / 22px = 1.182em ) */ 
-    padding: 0.809em; /* 1.618% (1.618em / 2) */ 
+    font-size: 1.125em; /* 18px @ 16 */
+    line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */ 
+    padding: 0.563em; /* 1.125em / 2 */ 
     text-rendering: optimizeLegibility;
 }
-
-/* font-family (3 fonts deep) */
 
 body {
     font-family: 'Lato', sans-serif;
@@ -430,48 +428,43 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* =============================================================  4. Headings ============================================================= */
-
-/* heading and paragraph css */
-/* (36 / 16 = 2.25) */
-/* (2.25 * 22px = 49.5) */
+p {
+    font-size: 1.125em; /* 18px @ 16 */
+    line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */ 
+}
 
 h1 {
-    font-size: 2.25em; /* 49.5px @ 22 */
-    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
-    font-style: normal; 
-    font-weight: normal;
+    font-size: 2.281em; /* 36px @ 16 */
+    line-height: 2.389em; /* 43px @ 120% ( 43px / 18px = 2.389em ) */
 } 
 
 h2 {
-    font-size: 1.618em; /* 35.596px @ 22 */
-    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
-    font-style: normal; 
-    font-weight: normal;
+    font-size: 1.602em; /* 25px @ 16 */
+    line-height: 1.667em; /* 30px @ 120% ( 30px / 18px = 1.667em ) */
 } 
 
 h3 {
-    font-size: 1.391em; /* 30.593px @ 22 */
-    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
-
-    font-style: normal; 
-    font-weight: normal;
+    font-size: 1.266em; /* 20px @ 16 */
+    line-height: 1.334em; /* 24px @ 120% ( 24px / 18px = 1.334em ) */
 } 
 
 h4 {
-    font-size: 1em; /* 22px @ 22 */
-    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
+    font-size: 1.125em; /* 18px @ 16 */
+    line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */
+} 
 
-    font-style: normal; 
-    font-weight: normal;
-}    
+h5 {
+    font-size: 1em; /* 16px @ 16 */
+    line-height: 1.056em; /* 19px @ 120% ( 19px / 18px = 1.056em ) */ 
+} 
 
-p {
-    font-size: 1em; /* 22px @ 22 */
-    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
-    font-style: normal; 
-    font-weight: normal;
-}
+h6 {
+    font-size: 0.889em; /* 14px @ 16 */
+    line-height: 1em; /* 16px @ 120% ( 16px / 16px = 1em ) */
+} 
+
+
+
 
 
 
