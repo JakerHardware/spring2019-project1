@@ -399,5 +399,135 @@ template {
 [hidden] {
   display: none;
 }
+/* Done
+   ========================================================================== */
 
-/* =============================================================  3. Something ============================================================= */
+/* Responsive Media */
+img, audio, video {
+    display: block;
+    max-width: 100%;
+}
+
+/* =============================================================  3. MAIN STYLE ============================================================= */
+
+/*
+Major Sixth Modular Scale:
+http://www.modularscale.com/?22&px&1.667&web&text
+*/
+
+html {
+    font-size: 1.375em; /* 22px @ 16 */
+    line-height: 1.618em; /* 26px / ~ 120% */ /* ( 26px / 22px = 1.182em ) */ 
+    padding: 0.809em; /* 1.618% (1.618em / 2) */ 
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+
+}
+
+label {
+    display: block;
+}
+
+/* font-family (3 fonts deep) */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* =============================================================  4. Headings ============================================================= */
+
+h1 a { 
+    color: #747474; 
+    font: bold 11px Calibri, Optima, Arial, sans-serif; 
+    letter-spacing: 0.15em; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+}
+
+/* heading and paragraph css */
+/* (36 / 16 = 2.25) */
+/* (2.25 * 22px = 49.5) */
+
+h1 {
+    font-size: 2.25em; /* 49.5px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+    font-style: normal; 
+    font-weight: normal;
+} 
+
+h2 {
+    font-size: 1.618em; /* 35.596px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+    font-style: normal; 
+    font-weight: normal;
+} 
+
+h3 {
+    font-size: 1.391em; /* 30.593px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+
+    font-style: normal; 
+    font-weight: normal;
+} 
+
+h4 {
+    font-size: 1em; /* 22px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
+
+    font-style: normal; 
+    font-weight: normal;
+}    
+
+p {
+    font-size: 1em; /* 22px @ 22 */
+    line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */
+    font-style: normal; 
+    font-weight: normal;
+}
+
+ol {
+    background-color: lightgray;
+    margin-top: 0.591em;
+    padding: 0.809em; /* 26px / ~ 120% */ 
+    border-radius: 0.236em;
+}
+
+input {
+    resize: vertical;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* stuff */
+
+
+
+/* =============================================================  5. Media Queries ============================================================= */
+
+/* 400px Break Point 1: Extra Small Devices, Phones */
+@media screen and (max-width: 354px) { 
+  
+}
+
+/* 658px Break Point 2: Small Devices, Tablets, PCs */
+@media screen and (min-width: 658px) {
+  
+
+}
+
+/* 992px Break Point 3: Desktop Computers, Large screens */
+@media screen and (min-width: 992px) {
+
+}
+
+/* =============================================================  6. Javascript ============================================================= */
+
+
