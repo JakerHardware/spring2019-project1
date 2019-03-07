@@ -117,7 +117,7 @@ img {
     padding-top: 0.563em; 
     padding-bottom: 0.563em;
     margin-top: 0.563em; 
-    margin-bottom: 0.563em;
+    margin-bottom: 1em;
     text-indent: 12px;
     display: block;
 }
@@ -160,10 +160,14 @@ ol {
     border-radius: 0.236em;
 }
 
- #popup{
-        width: 88%;
-        margin: 0 auto;
+#popup{
+    width: 88%;
+    margin: 0 auto;
+    display:none;
 }
+
+/* before fadein */
+
 
 /* ========================  3. Media Queries ======================== */
 
@@ -248,7 +252,7 @@ section{
 #popup{
     position: absolute;
     transform: translateX(-50%);
-    left: 48%;
+    left: 50%;
 }
 
 
