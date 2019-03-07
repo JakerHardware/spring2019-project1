@@ -16,6 +16,8 @@ html {
     line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */ 
     padding: 0.563em; /* 1.125em / 2 */ 
     text-rendering: optimizeLegibility;
+    margin: 0 0;
+    padding: 0 0;
 }
 
 body {
@@ -68,7 +70,6 @@ h6 {
     box-shadow: 5px 10px 18px #888888;
     position: absolute;
     width: auto 0;
-    
 }
 
 #popup h1, h2{
@@ -257,5 +258,14 @@ section{
     padding-right: .5em;
     background-color: white;
 }
+
+/* secret fix*/
+#popup{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+
 
 
