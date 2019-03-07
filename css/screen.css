@@ -463,9 +463,25 @@ h6 {
     line-height: 1em; /* 16px @ 120% ( 16px / 16px = 1em ) */
 } 
 
+/* Popup */
 
+#popup{
+  text-align: center;
+  background-color: lightgrey;
+  padding: 0.563em; /* 18px / 2 */
+  border-radius: 1.667em;
+  margin: 0.563em;
+}
 
+#popup.h1{
+  display: inline-block;
+}
 
+.responsive_img {
+  max-width: 100%;
+  display: inline-block;
+  height: auto;
+}
 
 
 /* =============================================================  5. Base ============================================================= */
@@ -475,7 +491,7 @@ label {
 }
 
 ol {
-    background-color: lightgray;
+    /*background-color: darkgray;  */
     padding: 0.809em; /* 26px / ~ 120% */ 
     border-radius: 0.236em;
 }
