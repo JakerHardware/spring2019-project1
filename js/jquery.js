@@ -25,7 +25,7 @@ $(document).ready(function(){
     });
 });
 
-// display popup after 5 seconds
+// this will display the popup after 5 seconds
 $(document).ready(function(){
     $('#popup').delay(2000).fadeIn("fast");
 });

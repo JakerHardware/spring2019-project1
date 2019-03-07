@@ -56,7 +56,7 @@ You will create a single-page design that features a sign-up process to get new 
 
 ### JavaScript requirements
 
-1. [ ] JavaScript that throws no uncaught errors and is loaded unobtrusively (no JavaScript event attributes in your HTML, in other words; attach events to any elements requiring interaction)
+1. [x] JavaScript that throws no uncaught errors and is loaded unobtrusively (no JavaScript event attributes in your HTML, in other words; attach events to any elements requiring interaction)
 
 2. [ ] Use the asynchronous attribute to attach JavaScript within your html head
 
