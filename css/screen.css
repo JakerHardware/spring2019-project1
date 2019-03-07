@@ -94,17 +94,8 @@ img {
     max-width: 100%;
 }
 
-.owo {
-    /* margin-left: 10%;
-    margin-right: 10%;  */
-}
-
 .ovo {
     display: block;
-
-}
-
-input{
 
 }
 
@@ -163,25 +154,15 @@ input{
 
 }
 
-/* exit */
-
-
-
-
-/* ========================  2. Base ======================== */
-
-label {
-
-}
-
 ol {
     /*background-color: darkgray;  */
     padding: 0.809em; /* 26px / ~ 120% */ 
     border-radius: 0.236em;
 }
 
-input {
-
+ #popup{
+        width: 88%;
+        margin: 0 auto;
 }
 
 /* ========================  3. Media Queries ======================== */
@@ -192,15 +173,19 @@ input {
         text-align: center;
     }
 
+    #popup{
+        width: 88%;
+        margin: 0 auto;
+    }
+
 }
 
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (min-width: 526px) {
-    #popdown_1{
+    #popup{
         width: 465px;
         margin: 0 auto;
     }
-
 }
 
 /* 992px Break Point 3: Desktop Computers, Large screens */
@@ -263,7 +248,7 @@ section{
 #popup{
     position: absolute;
     transform: translateX(-50%);
-    left: 50%;
+    left: 48%;
 }
 
 
