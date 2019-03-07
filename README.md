@@ -18,11 +18,11 @@ You will create a single-page design that features a sign-up process to get new 
 * Screen shot of your html and css validations
 * Two questions eliciting feedback on from fellow students
 
-2. [x] **Second Deliverable:** Give constructive comments to help at least three other students.
+2. [ ] **Second Deliverable:** Give constructive comments to help at least three other students.
 
 * Post a screen shot of your three comments to the comments folder in your personal Basecamp folder.
 
-3. [x] **Third Deliverable:** You will receive a list on your Basecamp post of required fixes from the professor. Fix your code and edit your original Basecamp post with the words "FINAL TURN IN"
+3. [ ] **Third Deliverable:** You will receive a list on your Basecamp post of required fixes from the professor. Fix your code and edit your original Basecamp post with the words "FINAL TURN IN"
 
 ## Rules
 
@@ -40,15 +40,15 @@ You will create a single-page design that features a sign-up process to get new 
 
 ### HTML requirements
 
-1. [ ] Only structural, semantic uses of HTML elements and attributes. Absolutely no table markup, break tags, or any other use of HTML to achieve a particular page layout.
+1. [x] Only structural, semantic uses of HTML elements and attributes. Absolutely no table markup, break tags, or any other use of HTML to achieve a particular page layout.
 
 2. [ ] At least three HTML form elements, written in conjunction with <label> tags and the for: attribute
 
-3. [ ] Semantically structured text-based HTML content to accompany any media elements (image, audio, video) 
+3. [x] Semantically structured text-based HTML content to accompany any media elements (image, audio, video) 
 
 ### CSS requirements
 
-1. [ ] One css file for resetes (Meyers and the Form section of Normalize). A second css file for your unique css code.
+1. [x] One css file for resetes (Meyers and the Form section of Normalize). A second css file for your unique css code.
 
 2. [ ] Use at least two min-width media queries to enhance your mobile-first styles for larger screens
 
