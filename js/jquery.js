@@ -2,10 +2,10 @@
 // mouse hover on subscribe
 $(document).ready(function(){
     $("#submit").hover(function(){
-        $(this).css("background-color", "#A9A9A9");
+        $(this).css("background-color", "#5C809D");
     },
                        function(){
-        $(this).css("background-color", "#000000");
+        $(this).css("background-color", "#357098");
     }); 
 });
 
