@@ -193,6 +193,12 @@ section{
     text-align: center;
 }
 
+/* pictures */
+section img{
+  max-width: 100%;
+  height: auto;
+  padding-bottom: .5em;
+}
 /* ========================  3. Media Queries ======================== */
 
 /* 400px Break Point 1: Extra Small Devices, Phones */
@@ -207,7 +213,6 @@ section{
     }
 
 }
-
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (min-width: 526px) {
     #popup{
@@ -218,11 +223,26 @@ section{
     section{
         margin: 1em .5em;
         padding: 1em;
+        overflow: hidden;
     }
     
     #blog_title{ 
     text-align: left;
     }
+  
+  .topic img{
+    height: auto;
+    width: 200px;
+    margin:  0 1em 0 0;
+    padding: 0 0 0 0;
+    display: inline-block;
+    float: left;
+  }
+  
+  section div{
+    width: auto;
+    display: inline;
+  }
     
     /* fonts */
     p {
@@ -268,10 +288,10 @@ section{
         width: 960px;
         margin: 0 auto;
     }
-
-    #html{
-
-    }
+  
+   .topic img{
+    width: 265px;
+  }
     
     /*fonts */
     p {
