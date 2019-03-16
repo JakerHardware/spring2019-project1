@@ -199,13 +199,41 @@ section img{
   height: auto;
   padding-bottom: .5em;
 }
+  
+/* smaller popup */
+ #popup h1{
+      text-align: center;
+      margin-top: .0em;
+      margin-bottom: .5em;
+  }
+
+#popup h2{
+      text-align: center;
+      padding-top: .0em;
+      padding-bottom: .0em;
+  }
+#popup h4{
+      text-align: center;
+}
+
 /* ========================  3. Media Queries ======================== */
 
 /* 400px Break Point 1: Extra Small Devices, Phones */
 @media screen and (min-width: 354px) { 
-    #popup h2{
+    #popup h1{
         text-align: center;
+        margin-top: .0em;
+        margin-bottom: .5em;
     }
+  
+  #popup h2{
+        text-align: center;
+        padding-top: .0em;
+        padding-bottom: .0em;
+    }
+  #popup h4{
+        text-align: center;
+  }
 
     #popup{
         width: 88%;
