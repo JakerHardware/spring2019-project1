@@ -19,7 +19,7 @@ body {
     background-color: #E2E2DC;
 }
 
-/* fonts */ 
+/* ========================  1. fonts ======================== */
 h1 {
     font-size: 1.266em; /* 20px @ 16 */
     line-height: 1.334em; /* 24px @ 120% ( 24px / 18px = 1.334em ) */
@@ -38,9 +38,10 @@ h3 {
 p {
     font-size: 0.889em; /* 14px @ 16 */
     line-height: 1em; /* 16px @ 120% ( 16px / 16px = 1em ) */
+    padding: 0.5625em 0;
 }
 
-/* Responsive Media */
+/* ========================  2. Responsive Media ======================== */
 img, audio, video {
     display: block;
     max-width: 100%;
@@ -52,72 +53,30 @@ img {
     right:0;       
 }
 
-.responsive_img {
-    max-width: 100%;
-}
-
-/* Popup */
+/* ========================  3. popup ======================== */
 
 #popup{
-    background-color: #bbc3c7;
     padding: 0.563em; /* 18px / 2 */
-    margin: 0 0 0 0;
+    margin: 0;
     box-shadow: 5px 10px 18px #888888;
     position: absolute;
-    width: auto;
     display: none;
+    width: 90%;
 }
 
-#popup h1, h2{
+#popup h1, #popup h2, #popup h3, #popup p{
+    margin: 0;
+    padding: 0.5625em 0;
     display: block;
 }
 
-/* padding  */
-p{
-    padding-top: 0.5625em;
-    padding-bottom: 0.5625em;
-}
-
-#popup h2 {
-    padding-top: 0.563em;
-    padding-bottom: 0.563em;
-} 
-#popup h4 {
-    padding-top: 0.563em; 
-    padding-bottom: 0.563em;
-}
-
-/* smaller popup */
- #popup h1{
-      text-align: center;
-      margin-top: .0em;
-      margin-bottom: .5em;
-  }
-
-#popup h2{
-      text-align: center;
-      padding-top: .0em;
-      padding-bottom: .0em;
-  }
-#popup h4{
-      text-align: center;
-}
-
-#popup h5{
-    display: inline;
-    padding-left: 0.563em; 
-    padding-right: 0.563em; 
+#popup h1, #popup h2, #popup h3{
+    text-align: center;
+    padding-bottom: 0;
 
 }
 
 #popup ol{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    list-style-type: none;
-}
-
-#popup ol li{
     list-style-type: none;
 }
 
@@ -125,128 +84,83 @@ p{
     width: 100%;
     border: 0;
     border-radius: 0.2em;
-    padding-top: 0.563em; 
-    padding-bottom: 0.563em;
-    margin-top: 0.563em; 
-    margin-bottom: 1em;
+    padding: 0.563em 0; 
+    margin: 0.563em 0 1em 0;
     text-indent: 12px;
     display: block;
 }
 
 #submit{
     width: 100%;
-    color: #ffffff;
-    font-weight: 600;
-    background-color: black;
     border: 0;
     border-radius: 0.2em;
-    padding-top: 0.563em; 
-    padding-bottom: 0.563em; 
-    margin-top: 0.563em; 
-    margin-bottom: 0.563em; 
+    padding: 0.563em 0;
+    margin: 0.563em 0; 
     display: block;
 }
 
 #exit{
-    color: grey;
     text-align: right;
-    display: block;
-    margin-top: 2.563em; 
-    margin-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 1em;
     display: block;
 }
 
-ol {
-    /*background-color: darkgray;  */
-    padding: 0.809em; /* 26px / ~ 120% */ 
-    border-radius: 0.236em;
-}
-
-/* rest of website */
+/* ========================  4. rest of website ======================== */
 section{
     margin: 1em 0;
     padding: 1em;
 }
 
-#blog_title{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: .5em;
+section img{
     padding-bottom: .5em;
-    padding-left: .5em;
-    padding-right: .5em;
+}
+
+#blog_title{
+    margin: 0;
+    padding: .5em;
     text-align: center;
 }
 
-/* pictures */
-section img{
-  max-width: 100%;
-  height: auto;
-  padding-bottom: .5em;
-}
-  
-.ovo {
-    display: block;
-}
-
-/* ========================  3. Media Queries ======================== */
+/* ========================  5. media queries ======================== */
 
 /* 400px Break Point 1: Extra Small Devices, Phones */
 @media screen and (min-width: 354px) { 
-    #popup h1{
-        text-align: center;
-        margin-top: .0em;
-        margin-bottom: .5em;
-    }
-  
-  #popup h2{
-        text-align: center;
-        padding-top: .0em;
-        padding-bottom: .0em;
-    }
-  #popup h4{
-        text-align: center;
-  }
-
-    #popup{
-        width: 88%;
-        margin: 0 auto;
-    }
 
 }
+
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (min-width: 526px) {
-    #popup{
-        width: 465px;
-        margin: 0 auto;
-    }
-    
     section{
-        margin: 1em .5em;
+        margin: 1em 0.563em;
         padding: 1em;
         overflow: hidden;
     }
-    
-    #blog_title{ 
-    text-align: left;
+
+    section div{
+        display: inline;
     }
-  
-  .topic img{
-    height: auto;
-    width: 200px;
-    margin:  0 1em 0 0;
-    padding: 0 0 0 0;
-    display: inline-block;
-    float: left;
-  }
-  
-  section div{
-    width: auto;
-    display: inline;
-  }
-    
+
+    #popup{
+        width: 465px;
+    }
+
+    #blog_title{ 
+        text-align: left;
+    }
+
+    .topic img{
+        width: 200px;
+        margin-right: 1em;
+        padding: 0;
+        display: inline-block;
+        float: left;
+    }
+
+    #popup h1, #popup h2, #popup h3{
+        padding-top: 0.281em;
+        padding-bottom: 0;
+    } 
+
     /* fonts */
     h1 {
         font-size: 1.602em; /* 25px @ 16 */
@@ -262,7 +176,7 @@ section img{
         font-size: 1.125em; /* 18px @ 16 */
         line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */
     }
-    
+
     p {
         font-size: 1em; /* 16px @ 16 */
         line-height: 1.056em; /* 19px @ 120% ( 19px / 18px = 1.056em ) */
@@ -276,11 +190,19 @@ section img{
         width: 960px;
         margin: 0 auto;
     }
-  
-   .topic img{
-    width: 265px;
-  }
-    
+
+    .topic img{
+        width: 265px;
+    }
+
+    #popup{
+        width: 525px;
+    }
+
+    #popup h1, #popup h2, #popup h3{
+        padding-top: 0;
+    } 
+
     /*fonts */
     h1 {
         font-size: 2.281em; /* 36px @ 16 */
@@ -296,10 +218,14 @@ section img{
         font-size: 1.266em; /* 20px @ 16 */
         line-height: 1.334em; /* 24px @ 120% ( 24px / 18px = 1.334em ) */
     } 
-    
+
     p {
         font-size: 1.125em; /* 18px @ 16 */
         line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */ 
+    }
+
+    section{
+        margin: 1em 0;
     }
 
 }
@@ -311,22 +237,18 @@ nav ul {
     margin: 0 auto;
     padding: 0;
     list-style-type: none;
-    background-color: dimgrey;
 }
 
 nav li a {
     text-align: center;
     text-decoration: none;
-    display: block;
-    color: #FAF9F9;
     padding: 16px 18px;
-    color: white;
+    display: block;
 }
 
 nav li {
     float: right;
 }
-
 
 nav li a:hover {
     background-color: grey;
@@ -342,37 +264,37 @@ nav li a:hover {
 
 /* color */
 p, h1, h2, h3, h4, h5, h6{
-  color: #10293B;
+    color: #10293B;
 }
 
 #close{
-  color: #62625E;
+    color: #62625E;
 }
 
 #submit{
-  background-color: #357098;
-  color: #FAF9F9;
+    background-color: #357098;
+    color: #FAF9F9;
 }
 
 #popup h1, h2, h3, h4, h5, h6{
-  color: #10293B;
+    color: #10293B;
 }
 
 #popup{
-  background-color: #E2E2DC;
+    background-color: #E2E2DC;
 }
 
 nav ul{
-  background-color: #357098;
+    background-color: #357098;
 }
 
 nav li a{
-  color: #FAF9F9;
+    color: #FAF9F9;
 }
 
 #blog_title{
-  background-color: #7B97B2;
-  color: #FAF9F9;
+    background-color: #7B97B2;
+    color: #FAF9F9;
 }
 
 section{
