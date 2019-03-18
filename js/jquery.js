@@ -1,31 +1,37 @@
 // JQuery? More like [REDACTED]
-// mouse hover on subscribe
 $(document).ready(function(){
+    // mouse hover on subscribe
     $("#submit").hover(function(){
         $(this).css("background-color", "#5C809D");
     },
                        function(){
         $(this).css("background-color", "#357098");
-    }); 
+    });
+  
+    // fade out on close
+    $("#close").click(function(){
+        $("#popup").fadeOut("fast");
+        $("main").removeClass("blur");
+    });
+    
+    // open popup manually
+    $("#owo button").click(function(){
+        $('#popup').fadeIn("fast");
+    });
 });
 
 // fade out on submit
 $(this).submit(function(){
     alert("You are now subscribed.");
     $("#popup").fadeOut("slow");
+    $("main").removeClass("blur");
     return false;
 });
 
-// fade out on close
-// btw this is a shoutout to yall you motherfuckers who stole my code
-// jk i actually love you. 
-$(document).ready(function(){
-    $("#close").click(function(){
-        $("#popup").fadeOut("fast");
-    });
-});
-
-// this will display the popup after 5 seconds
-$(document).ready(function(){
-    $('#popup').delay(2000).fadeIn("fast");
+// lauch popup after 2 seconds
+$(function(){
+setTimeout(function(){
+  $('#popup').fadeIn("fast");
+  $("main").addClass("blur");
+},2000);
 });

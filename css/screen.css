@@ -121,6 +121,30 @@ section img{
     text-align: center;
 }
 
+.popup_button{
+    display: inline;
+}
+#owo{
+    text-align: center;
+}
+#owo h2{
+    display: inline;
+    text-align: left;
+}
+#owo button{
+    text-align: center;
+    background-color: #357098;
+    color: #FAF9F9;
+    width: auto;
+    height: auto;
+    border: 0;
+    border-radius: 0.2em;
+    padding: auto;
+    margin: auto; 
+    display: inline-block;
+    align-content: middle;
+}
+
 /* ========================  5. media queries ======================== */
 
 /* 400px Break Point 1: Extra Small Devices, Phones */
@@ -181,6 +205,12 @@ section img{
         font-size: 1em; /* 16px @ 16 */
         line-height: 1.056em; /* 19px @ 120% ( 19px / 18px = 1.056em ) */
     }
+
+    #owo button{
+        font-size: 1.266em;
+        line-height: 1.334em; 
+        width: 6em; 
+    }
 }
 
 /* 992px Break Point 3: Desktop Computers, Large screens */
@@ -228,6 +258,12 @@ section img{
         margin: 1em 0;
     }
 
+    #owo button{
+        font-size: 1.602em; /* 25px @ 16 */
+        line-height: 1.667em; /* 30px @ 120% ( 30px / 18px = 1.667em ) */
+
+    }
+
 }
 
 /* ========================  4. Navigation ======================== */
@@ -251,7 +287,11 @@ nav li {
 }
 
 nav li a:hover {
-    background-color: grey;
+    background-color: #5C809D;
+}
+
+#owo button:hover {
+    background-color: #5C809D;
 }
 
 /* popup secret fix*/
@@ -301,7 +341,17 @@ section{
     background-color: #FAF9F9;
 }
 
+#wipeout{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: red;
+}
 
+.blur{
+    -webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+}
 
 
 
