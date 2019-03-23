@@ -88,6 +88,24 @@ img {
     display: block;
 }
 
+#input-check{
+    display: block;
+
+    margin: 0.563em 0;
+}
+
+#check{
+    display: inline-block;
+    width: 1.563em;
+    height: 1.563em;
+    vertical-align: middle;
+}
+
+#input-check label{
+    display: inline-block;
+    vertical-align: middle;
+}
+
 #submit{
     width: 100%;
     border: 0;
@@ -230,6 +248,9 @@ section img{
     #popup h1, #popup h2, #popup h3{
         padding-top: 0;
     } 
+    #input-check{
+        text-align: left;
+    }
 
     /*fonts */
     h1 {
