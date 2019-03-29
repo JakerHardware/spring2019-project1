@@ -152,10 +152,9 @@ section img{
     height: auto;
     border: 0;
     border-radius: 0.2em;
-    padding: auto;
     margin: auto; 
     display: inline-block;
-    align-content: middle;
+    align-content: center;
 }
 
 /* ========================  5. media queries ======================== */
