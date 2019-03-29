@@ -57,17 +57,16 @@ img {
 }
 
 #popup h1, #popup h2, #popup p{
-    margin: 0 0;
+    margin: 0;
     padding: 0.563em 0;
     text-align: center;
 }
 
 #popup h1{
-    border-bottom: 2px solid #357098;
+    border-bottom: 4px solid #357098;
 }
 
 #popup h2{
-    border-top: 2px solid #357098;
     border-bottom: 2px solid #357098;
 }
 
@@ -101,13 +100,11 @@ img {
 }
 
 #submit{
-    clear: both;
     width: 100%;
     border: 0;
     border-radius: 0.2em;
     padding: 0.563em 0;
     margin: 0.563em 0;
-
     display: block;
 }
 

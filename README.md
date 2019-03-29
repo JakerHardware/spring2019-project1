@@ -18,11 +18,11 @@ You will create a single-page design that features a sign-up process to get new 
 * Screen shot of your html and css validations
 * Two questions eliciting feedback on from fellow students
 
-2. [ ] **Second Deliverable:** Give constructive comments to help at least three other students.
+2. [x] **Second Deliverable:** Give constructive comments to help at least three other students.
 
 * Post a screen shot of your three comments to the comments folder in your personal Basecamp folder.
 
-3. [ ] **Third Deliverable:** You will receive a list on your Basecamp post of required fixes from the professor. Fix your code and edit your original Basecamp post with the words "FINAL TURN IN"
+3. [x] **Third Deliverable:** You will receive a list on your Basecamp post of required fixes from the professor. Fix your code and edit your original Basecamp post with the words "FINAL TURN IN"
 
 ## Rules
 
@@ -42,7 +42,7 @@ You will create a single-page design that features a sign-up process to get new 
 
 1. [x] Only structural, semantic uses of HTML elements and attributes. Absolutely no table markup, break tags, or any other use of HTML to achieve a particular page layout.
 
-2. [ ] At least three HTML form elements, written in conjunction with <label> tags and the for: attribute
+2. [x] At least three HTML form elements, written in conjunction with <label> tags and the for: attribute
 
 3. [x] Semantically structured text-based HTML content to accompany any media elements (image, audio, video) 
 
@@ -52,17 +52,17 @@ You will create a single-page design that features a sign-up process to get new 
 
 2. [x] Use at least two min-width media queries to enhance your mobile-first styles for larger screens
 
-3. [ ] Much of your grade depends on design principles of typography, color, and material design that are discussed in this class. Make sure to demonstrate some grasp of these concepts.
+3. [x] Much of your grade depends on design principles of typography, color, and material design that are discussed in this class. Make sure to demonstrate some grasp of these concepts.
 
 ### JavaScript requirements
 
 1. [x] JavaScript that throws no uncaught errors and is loaded unobtrusively (no JavaScript event attributes in your HTML, in other words; attach events to any elements requiring interaction)
 
-2. [ ] Use the asynchronous attribute to attach JavaScript within your html head
+2. [x] Use the asynchronous attribute to attach JavaScript within your html head
 
 ### Git requirements
 
-1. [ ] A Git repository with at least 20 commits and meaningful commit messages that accurately reflect each set of changes that you make
+1. [x] A Git repository with at least 20 commits and meaningful commit messages that accurately reflect each set of changes that you make
 
-2. [ ] GitHub repository must contain only the files and commits from this project
+2. [x] GitHub repository must contain only the files and commits from this project
 
