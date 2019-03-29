@@ -28,11 +28,6 @@ h2 {
     line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */
 } 
 
-h3 {
-    font-size: 1em; /* 16px @ 16 */
-    line-height: 1.056em; /* 19px @ 120% ( 19px / 18px = 1.056em ) */ 
-} 
-
 p {
     font-size: 0.889em; /* 14px @ 16 */
     line-height: 1em; /* 16px @ 120% ( 16px / 16px = 1em ) */
@@ -55,50 +50,49 @@ img {
 
 #popup{
     padding: 0.563em; /* 18px / 2 */
-    margin: 0;
     box-shadow: 5px 10px 18px #888888;
     position: absolute;
     display: none;
     width: 90%;
 }
 
-#popup h1, #popup h2, #popup h3, #popup p{
-    margin: 0;
-    padding: 0.5625em 0;
-    display: block;
-}
-
-#popup h1, #popup h2, #popup h3{
+#popup h1, #popup h2, #popup p{
+    margin: 0 0;
+    padding: 0.563em 0;
     text-align: center;
-    padding-bottom: 0;
-
 }
 
-#popup ol{
-    list-style-type: none;
+#popup h1{
+    border-bottom: 2px solid #357098;
+}
+
+#popup h2{
+    border-top: 2px solid #357098;
+    border-bottom: 2px solid #357098;
 }
 
 #email{
     width: 100%;
-    border: 0;
     border-radius: 0.2em;
-    padding: 0.563em 0; 
-    margin: 0.563em 0 1em 0;
+    border: 0;
+    padding: 0.563em 0;
+    margin: 0.563em 0;
     text-indent: 12px;
     display: block;
 }
 
 #input-check{
     display: block;
-
-    margin: 0.563em 0;
+    padding: 1em 0 1em 0;
+    text-align: center;
 }
 
 #check{
     display: inline-block;
-    width: 1.563em;
-    height: 1.563em;
-    vertical-align: middle;
+    width: 1.334em;
+    height: 1.334em;
+    vertical-align: middle; 
+    text-align: center;
 }
 
 #input-check label{
@@ -107,18 +101,24 @@ img {
 }
 
 #submit{
+    clear: both;
     width: 100%;
     border: 0;
     border-radius: 0.2em;
     padding: 0.563em 0;
-    margin: 0.563em 0; 
+    margin: 0.563em 0;
+
     display: block;
 }
 
 #exit{
     text-align: right;
-    margin-top: 1em;
+    padding: 1em 0 0 0;
     display: block;
+}
+
+p#close{
+    text-align: right;
 }
 
 /* ========================  4. rest of website ======================== */
@@ -163,8 +163,11 @@ section img{
 
 /* ========================  5. media queries ======================== */
 
-/* 400px Break Point 1: Extra Small Devices, Phones */
-@media screen and (min-width: 354px) { 
+/* 324px Break Point 1: Extra Small Devices, Phones */
+@media screen and (min-width: 324px) { 
+    #input-check{
+        text-align: left;
+    }
 
 }
 
@@ -196,11 +199,6 @@ section img{
         float: left;
     }
 
-    #popup h1, #popup h2, #popup h3{
-        padding-top: 0.281em;
-        padding-bottom: 0;
-    } 
-
     /* fonts */
     h1 {
         font-size: 1.602em; /* 25px @ 16 */
@@ -211,11 +209,6 @@ section img{
         font-size: 1.266em; /* 20px @ 16 */
         line-height: 1.334em; /* 24px @ 120% ( 24px / 18px = 1.334em ) */
     } 
-
-    h3 {
-        font-size: 1.125em; /* 18px @ 16 */
-        line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */
-    }
 
     p {
         font-size: 1em; /* 16px @ 16 */
@@ -245,14 +238,6 @@ section img{
         width: 525px;
     }
 
-    #popup h1, #popup h2, #popup h3{
-        padding-top: 0;
-    } 
-    #input-check{
-        text-align: left;
-    }
-
-    /*fonts */
     h1 {
         font-size: 2.281em; /* 36px @ 16 */
         line-height: 2.389em; /* 43px @ 120% ( 43px / 18px = 2.389em ) */
@@ -261,11 +246,6 @@ section img{
     h2 {
         font-size: 1.602em; /* 25px @ 16 */
         line-height: 1.667em; /* 30px @ 120% ( 30px / 18px = 1.667em ) */
-    } 
-
-    h3 {
-        font-size: 1.266em; /* 20px @ 16 */
-        line-height: 1.334em; /* 24px @ 120% ( 24px / 18px = 1.334em ) */
     } 
 
     p {
@@ -280,7 +260,6 @@ section img{
     #owo button{
         font-size: 1.602em; /* 25px @ 16 */
         line-height: 1.667em; /* 30px @ 120% ( 30px / 18px = 1.667em ) */
-
     }
 
 }
