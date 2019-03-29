@@ -1,11 +1,3 @@
-/* Responsive Media */
-img, audio, video {
-    display: block;
-    max-width: 100%;
-}
-
-/* ========================  1. MAIN STYLE ======================== */
-
 /*
 Major second  Scale:
 https://www.modularscale.com/?16&px&1.125
@@ -21,174 +13,208 @@ html {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'Roboto', 'Lato', 'Oswald', sans-serif;
+    background-color: #E2E2DC;
 }
 
-p {
-    font-size: 1.125em; /* 18px @ 16 */
-    line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */ 
-}
-
+/* ========================  1. fonts ======================== */
 h1 {
-    font-size: 2.281em; /* 36px @ 16 */
-    line-height: 2.389em; /* 43px @ 120% ( 43px / 18px = 2.389em ) */
-} 
-
-h2 {
-    font-size: 1.602em; /* 25px @ 16 */
-    line-height: 1.667em; /* 30px @ 120% ( 30px / 18px = 1.667em ) */
-} 
-
-h3 {
     font-size: 1.266em; /* 20px @ 16 */
     line-height: 1.334em; /* 24px @ 120% ( 24px / 18px = 1.334em ) */
 } 
 
-h4 {
+h2 {
     font-size: 1.125em; /* 18px @ 16 */
     line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */
 } 
 
-h5 {
-    font-size: 1em; /* 16px @ 16 */
-    line-height: 1.056em; /* 19px @ 120% ( 19px / 18px = 1.056em ) */ 
-} 
-
-h6 {
+p {
     font-size: 0.889em; /* 14px @ 16 */
     line-height: 1em; /* 16px @ 120% ( 16px / 16px = 1em ) */
-} 
-
-/* Popup */
-
-#popup{
-    background-color: lightgrey;
-    padding: 0.563em; /* 18px / 2 */
-    margin: 0.563em;
-    box-shadow: 5px 10px 18px #888888;
-    position: absolute;
-    width: auto;
+    padding: 0.5625em 0;
 }
 
-#popup h1, h2{
+/* ========================  2. Responsive Media ======================== */
+img, audio, video {
     display: block;
-}
-
-
-#popup h2 { padding-top: 0.563em;
-    padding-bottom: 0.563em;} /* padding  */
-#popup h4 { padding-top: 0.563em; padding-bottom: 0.563em;} /* padding  */
-
-
-img {
-    margin:0 auto; /* center */
-    left:0;        /* center */
-    right:0;       /* center */
-}
-
-.responsive_img {
-    display: block;
-    height: auto;
     max-width: 100%;
 }
 
-.ovo {
-    display: block;
-
+img {
+    margin:0 auto;
+    left:0;       
+    right:0;       
 }
 
-#popup ol{
+/* ========================  3. popup ======================== */
+
+#popup{
+    padding: 0.563em; /* 18px / 2 */
+    box-shadow: 5px 10px 18px #888888;
+    position: absolute;
+    display: none;
+    width: 90%;
+}
+
+#popup h1, #popup h2, #popup p{
     margin: 0;
-    padding: 0;
-    border: 0;
-    list-style-type: none;
+    padding: 0.563em 0;
+    text-align: center;
 }
 
-#popup ol li{
-    list-style-type: none;
+#popup h1{
+    border-bottom: 4px solid #357098;
+}
+
+#popup h2{
+    border-bottom: 2px solid #357098;
 }
 
 #email{
     width: 100%;
-    border: 0;
     border-radius: 0.2em;
-    padding-top: 0.563em; 
-    padding-bottom: 0.563em;
-    margin-top: 0.563em; 
-    margin-bottom: 1em;
+    border: 0;
+    padding: 0.563em 0;
+    margin: 0.563em 0;
     text-indent: 12px;
     display: block;
 }
 
+#input-check{
+    display: block;
+    padding: 1em 0 1em 0;
+    text-align: center;
+}
+
+#check{
+    display: inline-block;
+    width: 1.334em;
+    height: 1.334em;
+    vertical-align: middle; 
+    text-align: center;
+}
+
+#input-check label{
+    display: inline-block;
+    vertical-align: middle;
+}
+
 #submit{
     width: 100%;
-    color: white;
-    background-color: black;
     border: 0;
     border-radius: 0.2em;
-    padding-top: 0.563em; 
-    padding-bottom: 0.563em; 
-    margin-top: 0.563em; 
-    margin-bottom: 0.563em; 
+    padding: 0.563em 0;
+    margin: 0.563em 0;
     display: block;
 }
 
 #exit{
-    color: grey;
     text-align: right;
-    display: block;
-    margin-top: 2.563em; 
-    margin-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 1em 0 0 0;
     display: block;
 }
 
-#popup h5{
+p#close{
+    text-align: right;
+}
+
+/* ========================  4. rest of website ======================== */
+section{
+    margin: 1em 0;
+    padding: 1em;
+}
+
+section img{
+    padding-bottom: .5em;
+}
+
+#blog_title{
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+}
+
+.popup_button{
     display: inline;
-
-    padding-left: 0.563em; 
-    padding-right: 0.563em; 
-
+}
+#owo{
+    text-align: center;
+}
+#owo h2{
+    display: inline;
+    text-align: left;
+}
+#owo button{
+    text-align: center;
+    background-color: #357098;
+    color: #FAF9F9;
+    width: auto;
+    height: auto;
+    border: 0;
+    border-radius: 0.2em;
+    margin: auto; 
+    display: inline-block;
+    align-content: center;
 }
 
-ol {
-    /*background-color: darkgray;  */
-    padding: 0.809em; /* 26px / ~ 120% */ 
-    border-radius: 0.236em;
-}
+/* ========================  5. media queries ======================== */
 
-#popup{
-    width: 88%;
-    margin: 0 auto;
-    display:none;
-}
-
-/* before fadein */
-
-
-/* ========================  3. Media Queries ======================== */
-
-/* 400px Break Point 1: Extra Small Devices, Phones */
-@media screen and (min-width: 354px) { 
-    #popup h2{
-        text-align: center;
-    }
-
-    #popup{
-        width: 88%;
-        margin: 0 auto;
+/* 324px Break Point 1: Extra Small Devices, Phones */
+@media screen and (min-width: 324px) { 
+    #input-check{
+        text-align: left;
     }
 
 }
 
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (min-width: 526px) {
+    section{
+        margin: 1em 0.563em;
+        padding: 1em;
+        overflow: hidden;
+    }
+
+    section div{
+        display: inline;
+    }
+
     #popup{
         width: 465px;
-        margin: 0 auto;
+    }
+
+    #blog_title{ 
+        text-align: left;
+    }
+
+    .topic img{
+        width: 200px;
+        margin-right: 1em;
+        padding: 0;
+        display: inline-block;
+        float: left;
+    }
+
+    /* fonts */
+    h1 {
+        font-size: 1.602em; /* 25px @ 16 */
+        line-height: 1.667em; /* 30px @ 120% ( 30px / 18px = 1.667em ) */
+    } 
+
+    h2 {
+        font-size: 1.266em; /* 20px @ 16 */
+        line-height: 1.334em; /* 24px @ 120% ( 24px / 18px = 1.334em ) */
+    } 
+
+    p {
+        font-size: 1em; /* 16px @ 16 */
+        line-height: 1.056em; /* 19px @ 120% ( 19px / 18px = 1.056em ) */
+    }
+
+    #owo button{
+        font-size: 1.266em;
+        line-height: 1.334em; 
+        width: 6em; 
     }
 }
 
@@ -200,8 +226,36 @@ ol {
         margin: 0 auto;
     }
 
-    #html{
+    .topic img{
+        width: 265px;
+    }
 
+    #popup{
+        width: 525px;
+    }
+
+    h1 {
+        font-size: 2.281em; /* 36px @ 16 */
+        line-height: 2.389em; /* 43px @ 120% ( 43px / 18px = 2.389em ) */
+    } 
+
+    h2 {
+        font-size: 1.602em; /* 25px @ 16 */
+        line-height: 1.667em; /* 30px @ 120% ( 30px / 18px = 1.667em ) */
+    } 
+
+    p {
+        font-size: 1.125em; /* 18px @ 16 */
+        line-height: 1.167em; /* 21px @ 120% ( 21px / 18px = 1.167em ) */ 
+    }
+
+    section{
+        margin: 1em 0;
+    }
+
+    #owo button{
+        font-size: 1.602em; /* 25px @ 16 */
+        line-height: 1.667em; /* 30px @ 120% ( 30px / 18px = 1.667em ) */
     }
 
 }
@@ -213,48 +267,85 @@ nav ul {
     margin: 0 auto;
     padding: 0;
     list-style-type: none;
-    background-color: dimgrey;
 }
 
 nav li a {
     text-align: center;
     text-decoration: none;
-    display: block;
-    color: white;
     padding: 16px 18px;
-    color: white;
+    display: block;
 }
 
 nav li {
     float: right;
 }
 
-
 nav li a:hover {
-    background-color: grey;
+    background-color: #5C809D;
 }
 
-section{
-    margin: 1em;
-    padding: 1em;
-    background-color: white;
+#owo button:hover {
+    background-color: #5C809D;
 }
 
-#blog_title{
-    margin-top: .5em;
-    margin-bottom: .4em;
-    padding-left: .5em;
-    padding-right: .5em;
-    background-color: white;
-}
-
-/* secret fix*/
+/* popup secret fix*/
 #popup{
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
+    top: 1em;
 }
 
+/* color */
+p, h1, h2{
+    color: #10293B;
+}
+
+#close{
+    color: #62625E;
+}
+
+#submit{
+    background-color: #357098;
+    color: #FAF9F9;
+}
+
+#popup h1, h2{
+    color: #10293B;
+}
+
+#popup{
+    background-color: #E2E2DC;
+}
+
+nav ul{
+    background-color: #357098;
+}
+
+nav li a{
+    color: #FAF9F9;
+}
+
+#blog_title{
+    background-color: #7B97B2;
+    color: #FAF9F9;
+}
+
+section{
+    background-color: #FAF9F9;
+}
+
+#wipeout{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: red;
+}
+
+.blur{
+    -webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+}
 
 
 
