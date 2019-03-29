@@ -301,7 +301,7 @@ nav li a:hover {
 }
 
 /* color */
-p, h1, h2, h3, h4, h5, h6{
+p, h1, h2{
     color: #10293B;
 }
 
@@ -314,7 +314,7 @@ p, h1, h2, h3, h4, h5, h6{
     color: #FAF9F9;
 }
 
-#popup h1, h2, h3, h4, h5, h6{
+#popup h1, h2{
     color: #10293B;
 }
 
